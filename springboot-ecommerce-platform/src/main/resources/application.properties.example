@@ -1,0 +1,51 @@
+spring.application.name=SB-Ecommerce-Portfolio
+
+# Search http://localhost:8080/h2-console on browser to open H2 Database
+# jdbc is the connection protocol and h2 is the actual in memory database
+#spring.h2.console.enabled=true
+#spring.datasource.url=jdbc:h2:mem:test
+
+
+#                           MySQL Configuration
+#spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
+#spring.datasource.username=your_username
+#spring.datasource.password=your_password
+
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+
+#                           PostgreSQL Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
+spring.datasource.username=your_username
+# Amazon RDS instance password / PostgreSQL password
+spring.datasource.password=your_password
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+
+project.image=images/
+
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.format_sql=true
+# By default --> Create and then destroy schema at the end of the session
+#spring.jpa.hibernate.ddl-auto=create-drop
+
+
+# Spring Security & JWT
+spring.app.jwtSecret=your_jwt_secret
+spring.app.jwtExpirationMs=3000000
+spring.ecom.app.jwtCookieName=springBootEcom
+
+
+#logging.level.org.springframework=DEBUG
+#logging.level.org.hibernate.SQL=DEBUG
+#logging.level.org.springframework.security=DEBUG
+#logging.level.com.ecommerce.project=DEBUG
+
+
+# Needed if we are using amazon elastic beanstalk
+server.port=5000
+
