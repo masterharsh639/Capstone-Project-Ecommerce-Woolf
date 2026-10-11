@@ -36,8 +36,6 @@ The backend was successfully deployed on **AWS Elastic Beanstalk** with **Amazon
 - 🗄️ **PostgreSQL** with Spring Data JPA & Hibernate
 - 🛡️ **Global Exception Handling** and Bean Validation
 - 📄 Pagination, Sorting & Product Search
-- 🖼️ Multipart File Upload for Product Images
-- ☁️ Successfully deployed on **AWS Elastic Beanstalk** with Amazon RDS *(Previously)*
 
 
 ## 🚀 Features
@@ -104,7 +102,6 @@ The backend was successfully deployed on **AWS Elastic Beanstalk** with **Amazon
 | **Validation** | Jakarta Bean Validation |
 | **Architecture** | Layered Architecture, RESTful APIs |
 | **Version Control** | Git & GitHub |
-| **Deployment** | AWS Elastic Beanstalk *(Previously)*, Amazon RDS *(Previously)* |
 
 
 ## 🏗️ Architecture
@@ -592,25 +589,38 @@ spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
 ---
 
-## ☁️ Deployment
+[//]: # (## ☁️ Deployment)
 
-This backend was successfully deployed on **AWS Elastic Beanstalk** using **Amazon RDS (PostgreSQL)** as the managed database service.
+[//]: # ()
+[//]: # (This backend was successfully deployed on **AWS Elastic Beanstalk** using **Amazon RDS &#40;PostgreSQL&#41;** as the managed database service.)
 
-During deployment, the following AWS services and concepts were used:
+[//]: # ()
+[//]: # (During deployment, the following AWS services and concepts were used:)
 
-- AWS Elastic Beanstalk
-- Amazon RDS for PostgreSQL
-- EC2 Instances
-- Security Groups
-- Application Packaging (Executable JAR)
-- Environment Variables
-- VPC Networking
-- Spring Boot Production Configuration
+[//]: # ()
+[//]: # (- AWS Elastic Beanstalk)
 
-During deployment, the application was packaged as an executable JAR, deployed to AWS Elastic Beanstalk, connected to Amazon RDS (PostgreSQL), and configured using Elastic Beanstalk environment settings. Database connectivity, security groups, and networking issues were resolved during deployment.
+[//]: # (- Amazon RDS for PostgreSQL)
 
-> **Note:** The AWS resources were later terminated to avoid unnecessary cloud charges after successfully completing the deployment and testing process.
+[//]: # (- EC2 Instances)
 
+[//]: # (- Security Groups)
+
+[//]: # (- Application Packaging &#40;Executable JAR&#41;)
+
+[//]: # (- Environment Variables)
+
+[//]: # (- VPC Networking)
+
+[//]: # (- Spring Boot Production Configuration)
+
+[//]: # ()
+[//]: # (During deployment, the application was packaged as an executable JAR, deployed to AWS Elastic Beanstalk, connected to Amazon RDS &#40;PostgreSQL&#41;, and configured using Elastic Beanstalk environment settings. Database connectivity, security groups, and networking issues were resolved during deployment.)
+
+[//]: # ()
+[//]: # (> **Note:** The AWS resources were later terminated to avoid unnecessary cloud charges after successfully completing the deployment and testing process.)
+
+[//]: # ()
 
 ## 📸 Screenshots
 
@@ -624,7 +634,6 @@ The screenshots below highlight the core modules, REST APIs, database integratio
 | Shopping Cart | ![Add Product To Cart](images/cart.png)             |
 | Order APIs | ![Place Order](images/order.png)                    |
 | PostgreSQL Database | ![PostgreSQL DB](images/postgre_sql_db.png)         |
-| AWS Deployment | ![AWS Elastic Beanstalk](images/aws_deployment.png) |
 
 > **Note:** API testing was performed using **Postman**, and the backend was previously deployed on **AWS Elastic Beanstalk** with **Amazon RDS (PostgreSQL)**.
 
@@ -652,7 +661,3 @@ The backend has been designed to be easily extensible. Some planned enhancements
 **HARSH MISHRA**
 
 B.E in Computer Science and Engineering , KLE TECHNOLOGICAL UNIVERSITY, Hubli, India
-
----
-
-⭐ If you found this project interesting, consider giving it a star. Feedback and suggestions are always appreciated!
