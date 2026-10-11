@@ -649,9 +649,9 @@ The backend has been designed to be easily extensible. Some planned enhancements
 
 ## 👨‍💻 Author
 
-**Purusharth Rana**
+**HARSH MISHRA**
 
-B.Tech in Information Technology, IIIT Una
+B.E in Computer Science and Engineering , KLE TECHNOLOGICAL UNIVERSITY, Hubli, India
 
 ---
 
